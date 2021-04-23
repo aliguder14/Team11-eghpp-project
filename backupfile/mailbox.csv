@@ -1,0 +1,349 @@
+"Receiver" "Is read" "Sender" "Sent Date" "Sent Time" "Receive Date" "Receive Time" "Subject" "Content" "Message Item" "Mailbox Item" "Mailbox From" "Mailbox Sender" "Mailbox Receiver" "Is Read by Receiver" "Message Key" "Mailbox Type"
+"oberker" "+" "aguder" "2010-04-28" "22:57:58" "2010-04-28" "22:57:58" "No Subject" "ªlH]5" "144" "506" "inbox" "outbox" "inbox" "+" "181635827316177" "inbox"
+"oberker" "+" "o_tugrul" "2010-04-28" "22:59:52" "2010-04-28" "22:59:52" "ilk mesaj" "ˇdTÍ¶SmÚSÃÓ∏·" "146" "508" "inbox" "outbox" "inbox" "+" "197714263444783" "inbox"
+"o_tugrul" "+" "EGHPP System" "2010-04-28" "22:59:52" "2010-04-28" "22:59:52" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-04-28
+Receive Time: 22:59:52
+Subject: ilk mesaj" "147" "509" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"o_tugrul" "+" "EGHPP System" "2010-04-28" "23:00:29" "2010-04-28" "23:00:29" "report:read" "Message is read from :oberker
+Subject: ilk mesaj" "148" "510" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "-" "EGHPP System" "2010-04-28" "23:29:12" "2010-04-28" "23:29:12" "report:read" "Message is read from :oberker
+Subject: No Subject" "150" "511" "inbox" "outbox" "deleted" "-" "notenc" "inbox"
+"aguder" "-" "EGHPP System" "2010-04-29" "11:49:31" "2010-04-29" "11:49:31" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-04-29
+Receive Time: 11:49:31
+Subject: 3434  fgfg" "152" "513" "inbox" "outbox" "deleted" "-" "notenc" "inbox"
+"oberkert" "-" "aguder" "2010-04-29" "11:50:25" "2010-04-29" "11:50:25" "5678  fdfdfd" "µ‚ı≠ìE‡)Ñ7ﬁm¨!ŒO°ThÕÓX∆bß
+˝ﬁΩ(Z:’" "153" "514" "inbox" "deleted" "inbox" "-" "208318346214332" "inbox"
+"aguder" "+" "EGHPP System" "2010-04-29" "11:50:25" "2010-04-29" "11:50:25" "report:notsent" "Message is not delivered to :'oberkert' Beceause 'oberkert' is not registered in the system" "154" "515" "inbox" "outbox" "outbox" "-" "notenc" "inbox"
+"oberker" "+" "admin" "2010-04-29" "12:21:03" "2010-04-29" "12:21:03" "deneme omur" "øëÏ" "156" "517" "inbox" "outbox" "inbox" "+" "214176640774087" "inbox"
+"admin" "-" "EGHPP System" "2010-04-29" "12:21:03" "2010-04-29" "12:21:03" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-04-29
+Receive Time: 12:21:03
+Subject: deneme omur" "157" "518" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"o_tugrul" "+" "admin" "2010-04-29" "12:23:21" "2010-04-29" "12:23:21" "deneme poguz" "Ä{Åˆ≠«w" "158" "519" "inbox" "inbox" "inbox" "+" "227194727517728" "inbox"
+"admin" "-" "EGHPP System" "2010-04-29" "12:23:21" "2010-04-29" "12:23:21" "report:sent" "Message is sent successfully to :o_tugrul
+Receive Date: 2010-04-29
+Receive Time: 12:23:21
+Subject: deneme poguz" "159" "520" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "-" "EGHPP System" "2010-04-29" "12:23:36" "2010-04-29" "12:23:36" "report:read" "Message is read from :o_tugrul
+Subject: deneme poguz" "160" "521" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "+" "EGHPP System" "2010-04-29" "18:03:20" "2010-04-29" "18:03:20" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-04-29
+Receive Time: 18:03:20
+Subject: hat   78" "162" "523" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "+" "admin" "2010-04-29" "18:09:31" "2010-04-29" "18:09:31" "orta "" tƒ±rnaklƒ±" "" "163" "524" "inbox" "outbox" "inbox" "+" "notenc" "inbox"
+"admin" "+" "EGHPP System" "2010-04-29" "18:09:31" "2010-04-29" "18:09:31" "report:sent" "Message is sent successfully to :admin
+Receive Date: 2010-04-29
+Receive Time: 18:09:31
+Subject: orta "" tƒ±rnaklƒ±" "164" "525" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "-" "EGHPP System" "2010-04-29" "18:09:37" "2010-04-29" "18:09:37" "report:read" "Message is read from :admin
+Subject: orta "" tƒ±rnaklƒ±" "165" "526" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "+" "EGHPP System" "2010-05-01" "00:26:23" "2010-05-01" "00:26:23" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-05-01
+Receive Time: 00:26:23
+Subject: ba≈üka deneme" "167" "529" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "+" "EGHPP System" "2010-05-01" "01:17:05" "2010-05-01" "01:17:05" "report:read" "Message is read from :oberker
+Subject: ba≈üka deneme" "168" "530" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "+" "EGHPP System" "2010-05-01" "01:17:37" "2010-05-01" "01:17:37" "report:read" "Message is read from :oberker
+Subject: hat   78" "169" "531" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"o_tugrul" "+" "aguder" "2010-05-01" "12:53:28" "2010-05-01" "12:53:28" "√ñnemli" "Evraklar duruyor mu?" "171" "533" "inbox" "deleted" "inbox" "+" "notenc" "inbox"
+"oberker" "-" "aguder" "2010-05-01" "17:37:29" "2010-05-01" "17:37:29" "errrrr" "hfghfgh ghfhfghf" "174" "536" "inbox" "deleted" "inbox" "-" "notenc" "inbox"
+"aguder" "-" "EGHPP System" "2010-05-01" "18:10:22" "2010-05-01" "18:10:22" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-01
+Receive Time: 18:10:22
+Subject: deneme" "178" "539" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"oberker" "+" "admin" "2010-05-01" "00:26:23" "2010-05-01" "00:26:23" "ba≈üka deneme" "≈üirket ile ilgili dosyalarƒ± yollayabilirmisin
+" "166" "540" "outbox" "inbox" "deleted" "+" "notenc" "inbox"
+"o_tugrul" "+" "admin" "2010-04-29" "12:23:21" "2010-04-29" "12:23:21" "deneme poguz" "Ä{Åˆ≠«w" "158" "541" "outbox" "inbox" "inbox" "+" "227194727517728" "inbox"
+"aguder" "+" "EGHPP System" "2010-04-29" "11:51:02" "2010-04-29" "11:51:02" "report:read" "Message is read from :oberker
+Subject: 3434  fgfg" "155" "542" "inbox" "outbox" "deleted" "-" "notenc" "inbox"
+"aguder" "+" "aguder" "2010-05-01" "18:10:22" "2010-05-01" "18:10:22" "deneme" "deneme mesajƒ±" "177" "543" "outbox" "inbox" "deletedcomplete" "-" "notenc" "inbox"
+"oberker" "+" "aguder" "2010-05-02" "21:17:37" "2010-05-02" "21:17:37" "dosya isi" "◊&˜a.5" "180" "544" "inbox" "outbox" "inbox" "+" "290633040714160" "inbox"
+"aguder" "-" "EGHPP System" "2010-05-02" "21:17:37" "2010-05-02" "21:17:37" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-05-02
+Receive Time: 21:17:37
+Subject: dosya isi" "181" "545" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "-" "EGHPP System" "2010-05-02" "21:26:08" "2010-05-02" "21:26:08" "report:read" "Message is read from :oberker
+Subject: dosya isi" "182" "546" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "-" "oberker" "2010-05-02" "21:31:20" "2010-05-02" "21:31:20" "iki dosya" "o”ubÆÈ◊~b—œÛÉŒòpÑ" "183" "547" "inbox" "outbox" "inbox" "-" "197121528861108" "inbox"
+"aguder" "-" "oberker" "2010-05-02" "22:00:49" "2010-05-02" "22:00:49" "Bir sorun" "Ufak bir probmlem var sanki. Bakabilirmisin. " "185" "549" "inbox" "deleted" "inbox" "-" "notenc" "inbox"
+"oberker" "-" "EGHPP System" "2010-05-02" "22:00:49" "2010-05-02" "22:00:49" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-02
+Receive Time: 22:00:49
+Subject: Bir sorun" "186" "550" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"oberker" "-" "EGHPP System" "2010-05-02" "22:11:40" "2010-05-02" "22:11:40" "report:read" "Message is read from :aguder
+Subject: iki dosya" "187" "551" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"oberker" "-" "EGHPP System" "2010-05-02" "22:20:51" "2010-05-02" "22:20:51" "report:read" "Message is read from :aguder
+Subject: Bir sorun" "188" "552" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"o_tugrul" "+" "aguder" "2010-05-03" "01:01:49" "2010-05-03" "01:01:49" """√∂nemli""" "≈üu dosyayƒ± g√∂nderebilirmisin" "190" "555" "inbox" "outbox" "inbox" "+" "notenc" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-03" "01:01:49" "2010-05-03" "01:01:49" "report:sent" "Message is sent successfully to :o_tugrul
+Receive Date: 2010-05-03
+Receive Time: 01:01:49
+Subject: ""√∂nemli""" "191" "556" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "+" "admin" "2010-05-03" "01:45:47" "2010-05-03" "01:45:47" "'hatayla ilgili'" "bir 'sey denedim olacak gibi" "192" "557" "inbox" "outbox" "inbox" "+" "notenc" "inbox"
+"admin" "-" "EGHPP System" "2010-05-03" "01:45:47" "2010-05-03" "01:45:47" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-03
+Receive Time: 01:45:47
+Subject: 'hatayla ilgili'" "193" "558" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "+" "admin" "2010-05-03" "01:47:10" "2010-05-03" "01:47:10" "'≈üifreli deneme'" "JE·üÂ*C¢‰Xj]'‡j£æ-êËP©®:Å" "194" "559" "inbox" "draft" "inbox" "+" "309084826187424" "inbox"
+"admin" "+" "EGHPP System" "2010-05-03" "01:47:10" "2010-05-03" "01:47:10" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-03
+Receive Time: 01:47:10
+Subject: '≈üifreli deneme'" "195" "560" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"oberker" "-" "admin" "2010-05-03" "01:47:10" "2010-05-03" "01:47:10" "'≈üifreli deneme'" "JE·üÂ*C¢‰Xj]'‡j£æ-êËP©®:Å" "194" "561" "inbox" "draft" "inbox" "-" "309084826187424" "inbox"
+"admin" "-" "EGHPP System" "2010-05-03" "01:47:10" "2010-05-03" "01:47:10" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-05-03
+Receive Time: 01:47:10
+Subject: '≈üifreli deneme'" "196" "562" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "+" "admin" "2010-05-03" "01:49:00" "2010-05-03" "01:49:00" "ba≈üka i≈ü" "^ÉÍâl]∆[È–A– ·«—ÉáªàÓ" "197" "563" "inbox" "outbox" "inbox" "+" "213822497166651" "inbox"
+"aguder" "-" "EGHPP System" "2010-05-03" "09:57:56" "2010-05-03" "09:57:56" "report:read" "Message is read from :o_tugrul
+Subject: ""√∂nemli""" "200" "565" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "-" "EGHPP System" "2010-05-03" "10:11:26" "2010-05-03" "10:11:26" "report:sent" "Message is sent successfully to :admin
+Receive Date: 2010-05-03
+Receive Time: 10:11:26
+Subject: √∂√∂√ß" "202" "567" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "-" "EGHPP System" "2010-05-03" "10:11:35" "2010-05-03" "10:11:35" "report:read" "Message is read from :admin
+Subject: √∂√∂√ß" "203" "568" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"oberker" "-" "admin" "2010-05-03" "10:40:16" "2010-05-03" "10:40:16" "xddf" "˘Y	ı" "204" "569" "inbox" "outbox" "inbox" "-" "263910437455765" "inbox"
+"admin" "+" "EGHPP System" "2010-05-03" "10:40:16" "2010-05-03" "10:40:16" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-05-03
+Receive Time: 10:40:16
+Subject: xddf" "205" "570" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"o_tugrul" "-" "admin" "2010-05-03" "10:56:40" "2010-05-03" "10:56:40" "fgh" "" "206" "571" "inbox" "outbox" "inbox" "-" "204298137427409" "inbox"
+"oberker" "-" "aguder" "2010-05-03" "12:10:00" "2010-05-03" "12:10:00" "deneme1" ";”ÆΩ^" "208" "573" "inbox" "outbox" "inbox" "-" "179863372372848" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-03" "12:10:00" "2010-05-03" "12:10:00" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-05-03
+Receive Time: 12:10:00
+Subject: deneme1" "209" "574" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "+" "admin" "2010-05-03" "13:19:44" "2010-05-03" "13:19:44" "deee" "û˛∂‡ên}Fü" "210" "575" "inbox" "outbox" "inbox" "+" "199200865516246" "inbox"
+"admin" "+" "EGHPP System" "2010-05-03" "13:20:27" "2010-05-03" "13:20:27" "report:read" "Message is read from :aguder
+Subject: deee" "212" "578" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "+" "admin" "2010-05-03" "14:04:56" "2010-05-03" "14:04:56" "No Subject" "h‚f∞""p¿≈’" "213" "579" "inbox" "outbox" "inbox" "+" "252213791928725" "inbox"
+"admin" "+" "EGHPP System" "2010-05-03" "14:04:56" "2010-05-03" "14:04:56" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-03
+Receive Time: 14:04:56
+Subject: No Subject" "214" "580" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "+" "EGHPP System" "2010-05-03" "14:05:27" "2010-05-03" "14:05:27" "report:read" "Message is read from :aguder
+Subject: No Subject" "215" "581" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "+" "EGHPP System" "2010-05-03" "14:11:41" "2010-05-03" "14:11:41" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-05-03
+Receive Time: 14:11:41
+Subject: we" "218" "583" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "-" "EGHPP System" "2010-05-03" "14:31:29" "2010-05-03" "14:31:29" "report:read" "Message is read from :oberker
+Subject: we" "219" "584" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"o_tugrul" "-" "oberker" "2010-05-03" "14:32:51" "2010-05-03" "14:32:51" "ghghgh" "." "220" "585" "inbox" "outbox" "inbox" "-" "180363511335167" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-03" "14:42:06" "2010-05-03" "14:42:06" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-03
+Receive Time: 14:42:06
+Subject: hcfh" "223" "588" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"erret" "-" "oberker" "2010-05-03" "14:50:50" "2010-05-03" "14:50:50" "xdfdg" "" "224" "589" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "-" "aguder" "2010-05-03" "14:42:06" "2010-05-03" "14:42:06" "hcfh" "ÿˇÇiÂÏÑ‘" "222" "591" "inbox" "outbox" "inbox" "-" "308863902935828" "inbox"
+"admin" "+" "aguder" "2010-05-03" "16:37:36" "2010-05-03" "16:37:36" "No Subject" "hghjgjkgjgj" "229" "595" "inbox" "outbox" "inbox" "+" "notenc" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-03" "16:37:36" "2010-05-03" "16:37:36" "report:sent" "Message is sent successfully to :admin
+Receive Date: 2010-05-03
+Receive Time: 16:37:36
+Subject: No Subject" "230" "596" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-03" "21:06:45" "2010-05-03" "21:06:45" "report:read" "Message is read from :admin
+Subject: No Subject" "231" "597" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "-" "EGHPP System" "2010-05-06" "12:03:06" "2010-05-06" "12:03:06" "report:read" "Message is read from :aguder
+Subject: '≈üifreli deneme'" "232" "598" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "-" "EGHPP System" "2010-05-06" "12:04:52" "2010-05-06" "12:04:52" "report:read" "Message is read from :aguder
+Subject: 'hatayla ilgili'" "233" "599" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "+" "oberker" "2010-05-06" "14:10:18" "2010-05-06" "14:10:18" "No Subject" "wbt51ÚíŒ" "234" "600" "inbox" "outbox" "inbox" "+" "175163520775521" "inbox"
+"o_tugrul" "-" "oberker" "2010-05-06" "14:10:18" "2010-05-06" "14:10:18" "No Subject" "wbt51ÚíŒ" "234" "602" "inbox" "outbox" "inbox" "-" "175163520775521" "inbox"
+"aguder" "+" "aguder" "2010-05-06" "14:15:00" "2010-05-06" "14:15:00" "no vi" "ghjhgjg
+767567" "238" "605" "inbox" "outbox" "inbox" "+" "notenc" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-06" "14:15:00" "2010-05-06" "14:15:00" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-06
+Receive Time: 14:15:00
+Subject: no vi" "239" "606" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-06" "14:15:05" "2010-05-06" "14:15:05" "report:read" "Message is read from :aguder
+Subject: no vi" "240" "607" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-06" "14:50:59" "2010-05-06" "14:50:59" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-05-06
+Receive Time: 14:50:59
+Subject: fgkl" "242" "609" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"o_tugrul" "-" "aguder" "2010-05-06" "19:45:08" "2010-05-06" "19:45:08" "deneme2" "ghg 67" "243" "610" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-06" "19:45:08" "2010-05-06" "19:45:08" "report:sent" "Message is sent successfully to :o_tugrul
+Receive Date: 2010-05-06
+Receive Time: 19:45:08
+Subject: deneme2" "244" "611" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"o_tugrul" "-" "aguder" "2010-05-06" "19:46:31" "2010-05-06" "19:46:31" "deneme2 tekrar" "
+Takƒ±mƒ±mƒ±z:
+Ali G√ºder
+Oƒüuz Tuƒürul
+√ñm√ºr Berker" "245" "612" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-06" "19:46:31" "2010-05-06" "19:46:31" "report:sent" "Message is sent successfully to :o_tugrul
+Receive Date: 2010-05-06
+Receive Time: 19:46:31
+Subject: deneme2 tekrar" "246" "613" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "+" "EGHPP System" "2010-05-06" "20:32:43" "2010-05-06" "20:32:43" "report:read" "Message is read from :aguder
+Subject: ba≈üka i≈ü" "247" "614" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"admin" "+" "aguder" "2010-05-06" "20:51:39" "2010-05-06" "20:51:39" "deneme3" "ˇï\uY¯ô|zåÙú“P+è€'Â8Ê ÅpùQê¸ÜÏ∞SÂﬁ`âLä…#;“JDÛ˘úô
+" "248" "615" "inbox" "outbox" "inbox" "+" "242739843473192" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-06" "20:51:39" "2010-05-06" "20:51:39" "report:sent" "Message is sent successfully to :admin
+Receive Date: 2010-05-06
+Receive Time: 20:51:39
+Subject: deneme3" "249" "616" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"o_tugrul" "-" "aguder" "2010-05-06" "20:51:39" "2010-05-06" "20:51:39" "deneme3" "ˇï\uY¯ô|zåÙú“P+è€'Â8Ê ÅpùQê¸ÜÏ∞SÂﬁ`âLä…#;“JDÛ˘úô
+" "248" "617" "inbox" "outbox" "inbox" "-" "242739843473192" "inbox"
+"aguder" "+" "EGHPP System" "2010-05-06" "20:51:39" "2010-05-06" "20:51:39" "report:sent" "Message is sent successfully to :o_tugrul
+Receive Date: 2010-05-06
+Receive Time: 20:51:39
+Subject: deneme3" "250" "618" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "-" "EGHPP System" "2010-05-06" "21:01:38" "2010-05-06" "21:01:38" "report:read" "Message is read from :admin
+Subject: deneme3" "251" "619" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "-" "EGHPP System" "2010-05-06" "23:22:22" "2010-05-06" "23:22:22" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-05-06
+Receive Time: 23:22:22
+Subject: No Subject" "253" "621" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "-" "EGHPP System" "2010-05-06" "23:42:13" "2010-05-06" "23:42:13" "report:read" "Message is read from :oberker
+Subject: fgkl" "254" "622" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"aguder" "-" "EGHPP System" "2010-05-07" "01:33:13" "2010-05-07" "01:33:13" "report:read" "Message is read from :oberker
+Subject: No Subject" "255" "623" "inbox" "outbox" "inbox" "-" "notenc" "inbox"
+"oberker" "+" "o_tugrul" "2010-04-28" "22:59:52" "2010-04-28" "22:59:52" "ilk mesaj" "ˇdTÍ¶SmÚSÃÓ∏·" "146" "247" "outbox" "outbox" "inbox" "+" "197714263444783" "outbox"
+"oberker" "+" "aguder" "2010-04-29" "11:49:31" "2010-04-29" "11:49:31" "3434  fgfg" "gÜG‹<±Ï*pı:æå_0Ê3Å[u®Ù'" "151" "248" "outbox" "deleted" "deleted" "+" "182932218998418" "outbox"
+"oberkert" "+" "aguder" "2010-04-29" "11:50:25" "2010-04-29" "11:50:25" "5678  fdfdfd" "µ‚ı≠ìE‡)Ñ7ﬁm¨!ŒO°ThÕÓX∆bß
+˝ﬁΩ(Z:’" "153" "249" "outbox" "deleted" "inbox" "-" "208318346214332" "outbox"
+"oberker" "+" "admin" "2010-04-29" "12:21:03" "2010-04-29" "12:21:03" "deneme omur" "øëÏ" "156" "250" "outbox" "outbox" "inbox" "+" "214176640774087" "outbox"
+"oberker" "+" "admin" "2010-04-29" "18:03:20" "2010-04-29" "18:03:20" "hat   78" "6H3ë˚z˜—Ä/‡X÷Ó<Î˙N#ö¯0öklÌ" "161" "252" "outbox" "outbox" "draft" "+" "238821600840280" "outbox"
+"admin" "+" "admin" "2010-04-29" "18:09:31" "2010-04-29" "18:09:31" "orta "" tƒ±rnaklƒ±" "" "163" "253" "outbox" "outbox" "inbox" "+" "notenc" "outbox"
+"admin" "+" "EGHPP System" "2010-05-01" "01:17:51" "2010-05-01" "01:17:51" "report:read" "Message is read from :oberker
+Subject: deneme omur" "170" "262" "inbox" "outbox" "outbox" "-" "notenc" "outbox"
+"oberker" "+" "aguder" "2010-04-28" "22:57:58" "2010-04-28" "22:57:58" "No Subject" "ªlH]5" "144" "263" "outbox" "outbox" "inbox" "+" "181635827316177" "outbox"
+"oberker" "+" "aguder" "2010-05-02" "21:17:37" "2010-05-02" "21:17:37" "dosya isi" "◊&˜a.5" "180" "264" "outbox" "outbox" "inbox" "+" "290633040714160" "outbox"
+"aguder" "+" "oberker" "2010-05-02" "21:31:20" "2010-05-02" "21:31:20" "iki dosya" "o”ubÆÈ◊~b—œÛÉŒòpÑ" "183" "265" "outbox" "outbox" "inbox" "-" "197121528861108" "outbox"
+"oberker" "+" "admin" "2010-05-02" "14:05:04" "2010-05-02" "14:05:04" "No subject" "bu ≈üekilde daha iyi oturur" "179" "268" "outbox" "draft" "draft" "+" "notenc" "outbox"
+"o_tugrul" "+" "aguder" "2010-05-03" "01:01:49" "2010-05-03" "01:01:49" """√∂nemli""" "≈üu dosyayƒ± g√∂nderebilirmisin" "190" "269" "outbox" "outbox" "inbox" "+" "notenc" "outbox"
+"aguder" "+" "admin" "2010-05-03" "01:45:47" "2010-05-03" "01:45:47" "'hatayla ilgili'" "bir 'sey denedim olacak gibi" "192" "270" "outbox" "outbox" "inbox" "+" "notenc" "outbox"
+"aguder" "+" "admin" "2010-05-03" "01:49:00" "2010-05-03" "01:49:00" "ba≈üka i≈ü" "^ÉÍâl]∆[È–A– ·«—ÉáªàÓ" "197" "272" "outbox" "outbox" "inbox" "+" "213822497166651" "outbox"
+"admin" "+" "admin" "2010-05-03" "10:11:26" "2010-05-03" "10:11:26" "√∂√∂√ß" "R|?˚K" "201" "273" "outbox" "outbox" "draft" "+" "299471363185294" "outbox"
+"oberker" "+" "admin" "2010-05-03" "10:40:16" "2010-05-03" "10:40:16" "xddf" "˘Y	ı" "204" "274" "outbox" "outbox" "inbox" "-" "263910437455765" "outbox"
+"o_tugrul" "+" "admin" "2010-05-03" "10:56:40" "2010-05-03" "10:56:40" "fgh" "" "206" "275" "outbox" "outbox" "inbox" "-" "204298137427409" "outbox"
+"oberker" "+" "aguder" "2010-05-03" "12:10:00" "2010-05-03" "12:10:00" "deneme1" ";”ÆΩ^" "208" "276" "outbox" "outbox" "inbox" "-" "179863372372848" "outbox"
+"aguder" "+" "admin" "2010-05-03" "13:19:44" "2010-05-03" "13:19:44" "deee" "û˛∂‡ên}Fü" "210" "277" "outbox" "outbox" "inbox" "+" "199200865516246" "outbox"
+"aguder" "+" "admin" "2010-05-03" "14:04:56" "2010-05-03" "14:04:56" "No Subject" "h‚f∞""p¿≈’" "213" "278" "outbox" "outbox" "inbox" "+" "252213791928725" "outbox"
+"oberker" "+" "admin" "2010-05-03" "14:11:41" "2010-05-03" "14:11:41" "we" "zf˚y>9àœ⁄" "217" "279" "outbox" "outbox" "draft" "+" "296100533315581" "outbox"
+"o_tugrul" "+" "oberker" "2010-05-03" "14:32:51" "2010-05-03" "14:32:51" "ghghgh" "." "220" "280" "outbox" "outbox" "inbox" "-" "180363511335167" "outbox"
+"aguder" "+" "aguder" "2010-05-03" "14:42:06" "2010-05-03" "14:42:06" "hcfh" "ÿˇÇiÂÏÑ‘" "222" "281" "outbox" "outbox" "inbox" "-" "308863902935828" "outbox"
+"erret" "+" "oberker" "2010-05-03" "14:50:50" "2010-05-03" "14:50:50" "xdfdg" "" "224" "282" "outbox" "outbox" "inbox" "-" "notenc" "outbox"
+"oberker" "+" "aguder" "2010-05-03" "15:47:38" "2010-05-03" "15:47:38" "fdgdfg" "$!Ïs	é◊çY" "226" "283" "outbox" "outbox" "deletedcomplete" "+" "265675381794078" "outbox"
+"admin" "+" "aguder" "2010-05-03" "16:37:36" "2010-05-03" "16:37:36" "No Subject" "hghjgjkgjgj" "229" "284" "outbox" "outbox" "inbox" "+" "notenc" "outbox"
+"aguder" "+" "oberker" "2010-05-06" "14:10:18" "2010-05-06" "14:10:18" "No Subject" "wbt51ÚíŒ" "234" "286" "outbox" "outbox" "inbox" "+" "175163520775521" "outbox"
+"aguder" "+" "aguder" "2010-05-06" "14:15:00" "2010-05-06" "14:15:00" "no vi" "ghjhgjg
+767567" "238" "287" "outbox" "outbox" "inbox" "+" "notenc" "outbox"
+"oberker" "+" "aguder" "2010-05-06" "14:50:59" "2010-05-06" "14:50:59" "fgkl" "hj
+bn" "241" "288" "outbox" "outbox" "deleted" "+" "notenc" "outbox"
+"o_tugrul" "+" "aguder" "2010-05-06" "19:45:08" "2010-05-06" "19:45:08" "deneme2" "ghg 67" "243" "289" "outbox" "outbox" "inbox" "-" "notenc" "outbox"
+"o_tugrul" "+" "aguder" "2010-05-06" "19:46:31" "2010-05-06" "19:46:31" "deneme2 tekrar" "
+Takƒ±mƒ±mƒ±z:
+Ali G√ºder
+Oƒüuz Tuƒürul
+√ñm√ºr Berker" "245" "290" "outbox" "outbox" "inbox" "-" "notenc" "outbox"
+"admin" "+" "aguder" "2010-05-06" "20:51:39" "2010-05-06" "20:51:39" "deneme3" "ˇï\uY¯ô|zåÙú“P+è€'Â8Ê ÅpùQê¸ÜÏ∞SÂﬁ`âLä…#;“JDÛ˘úô
+" "248" "291" "outbox" "outbox" "inbox" "+" "242739843473192" "outbox"
+"oberker" "+" "aguder" "2010-05-06" "23:22:22" "2010-05-06" "23:22:22" "No Subject" "¨ñx|/&Ìzı˜5òÑQØ‡[®ÈZé_ö·˘˘¬Ò0∏Da0W*{" "252" "292" "outbox" "outbox" "outbox" "+" "186032912692801" "outbox"
+"oberker" "+" "aguder" "2010-05-06" "23:22:22" "2010-05-06" "23:22:22" "No Subject" "¨ñx|/&Ìzı˜5òÑQØ‡[®ÈZé_ö·˘˘¬Ò0∏Da0W*{" "252" "294" "inbox" "outbox" "outbox" "+" "186032912692801" "outbox"
+"" "+" "o_tugrul" "2010-04-28" "23:02:17" "2010-04-28" "23:02:17" "No subject" "jkl" "149" "71" "outbox" "draft" "draft" "+" "notenc" "draft"
+"aguder" "+" "EGHPP System" "2010-04-29" "11:50:25" "2010-04-29" "11:50:25" "report:notsent" "Message is not delivered to :'oberkert' Beceause 'oberkert' is not registered in the system" "154" "72" "inbox" "outbox" "outbox" "-" "notenc" "draft"
+"oberker" "+" "admin" "2010-04-29" "18:03:20" "2010-04-29" "18:03:20" "hat   78" "6H3ë˚z˜—Ä/‡X÷Ó<Î˙N#ö¯0öklÌ" "161" "73" "inbox" "outbox" "draft" "+" "238821600840280" "draft"
+"oberker" "+" "admin" "2010-05-02" "14:05:04" "2010-05-02" "14:05:04" "No subject" "bu ≈üekilde daha iyi oturur" "179" "80" "outbox" "draft" "draft" "+" "notenc" "draft"
+"fgfg" "+" "admin" "2010-05-03" "02:20:14" "2010-05-03" "02:20:14" "'olacak'" "Bu da 'olacak" "199" "89" "outbox" "outbox" "draft" "+" "notenc" "draft"
+"aguder" "+" "admin" "2010-05-03" "01:47:10" "2010-05-03" "01:47:10" "'≈üifreli deneme'" "JE·üÂ*C¢‰Xj]'‡j£æ-êËP©®:Å" "194" "90" "outbox" "draft" "inbox" "+" "309084826187424" "draft"
+"admin" "+" "EGHPP System" "2010-05-03" "10:56:40" "2010-05-03" "10:56:40" "report:sent" "Message is sent successfully to :o_tugrul
+Receive Date: 2010-05-03
+Receive Time: 10:56:40
+Subject: fgh" "207" "91" "inbox" "outbox" "draft" "-" "notenc" "draft"
+"admin" "+" "admin" "2010-05-03" "10:11:26" "2010-05-03" "10:11:26" "√∂√∂√ß" "R|?˚K" "201" "92" "inbox" "outbox" "draft" "+" "299471363185294" "draft"
+"" "+" "aguder" "2010-05-03" "14:06:08" "2010-05-03" "14:06:08" "No subject" "dfsdfd" "216" "93" "outbox" "outbox" "draft" "+" "notenc" "draft"
+"oberker" "+" "admin" "2010-05-03" "14:11:41" "2010-05-03" "14:11:41" "we" "zf˚y>9àœ⁄" "217" "97" "inbox" "outbox" "draft" "+" "296100533315581" "draft"
+"oberkert" "+" "aguder" "2010-04-29" "11:50:25" "2010-04-29" "11:50:25" "5678  fdfdfd" "µ‚ı≠ìE‡)Ñ7ﬁm¨!ŒO°ThÕÓX∆bß
+˝ﬁΩ(Z:’" "153" "91" "outbox" "deleted" "inbox" "-" "208318346214332" "deleted"
+"oberker" "+" "aguder" "2010-05-01" "17:37:29" "2010-05-01" "17:37:29" "errrrr" "hfghfgh ghfhfghf" "174" "92" "outbox" "deleted" "inbox" "-" "notenc" "deleted"
+"aguder" "+" "EGHPP System" "2010-04-29" "11:49:31" "2010-04-29" "11:49:31" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-04-29
+Receive Time: 11:49:31
+Subject: 3434  fgfg" "152" "93" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"aguder" "+" "EGHPP System" "2010-04-28" "22:57:58" "2010-04-28" "22:57:58" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-04-28
+Receive Time: 22:57:58
+Subject: No Subject" "145" "95" "inbox" "outbox" "inbox" "-" "notenc" "deleted"
+"aguder" "+" "EGHPP System" "2010-04-28" "23:29:12" "2010-04-28" "23:29:12" "report:read" "Message is read from :oberker
+Subject: No Subject" "150" "97" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"oberker" "+" "aguder" "2010-04-29" "11:49:31" "2010-04-29" "11:49:31" "3434  fgfg" "gÜG‹<±Ï*pı:æå_0Ê3Å[u®Ù'" "151" "99" "outbox" "deleted" "deleted" "+" "182932218998418" "deleted"
+"o_tugrul" "+" "aguder" "2010-05-01" "12:53:28" "2010-05-01" "12:53:28" "√ñnemli" "Evraklar duruyor mu?" "171" "100" "outbox" "deleted" "inbox" "+" "notenc" "deleted"
+"aguder" "-" "EGHPP System" "2010-04-28" "22:57:58" "2010-04-28" "22:57:58" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-04-28
+Receive Time: 22:57:58
+Subject: No Subject" "145" "101" "inbox" "outbox" "inbox" "-" "notenc" "deleted"
+"aguder" "+" "EGHPP System" "2010-05-01" "17:37:29" "2010-05-01" "17:37:29" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-05-01
+Receive Time: 17:37:29
+Subject: errrrr" "175" "102" "inbox" "outbox" "inbox" "-" "notenc" "deleted"
+"aguder" "-" "EGHPP System" "2010-05-01" "12:53:28" "2010-05-01" "12:53:28" "report:sent" "Message is sent successfully to :o_tugrul
+Receive Date: 2010-05-01
+Receive Time: 12:53:28
+Subject: √ñnemli" "172" "103" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"aguder" "-" "EGHPP System" "2010-05-01" "12:53:49" "2010-05-01" "12:53:49" "report:read" "Message is read from :o_tugrul
+Subject: √ñnemli" "173" "104" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"" "+" "aguder" "2010-05-01" "18:01:58" "2010-05-01" "18:01:58" "sadece taslak" "hatalarƒ± g√∂rebildim." "176" "106" "outbox" "deleted" "draft" "+" "notenc" "deleted"
+"aguder" "+" "EGHPP System" "2010-04-29" "11:51:02" "2010-04-29" "11:51:02" "report:read" "Message is read from :oberker
+Subject: 3434  fgfg" "155" "107" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"oberker" "+" "EGHPP System" "2010-05-02" "21:31:20" "2010-05-02" "21:31:20" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-02
+Receive Time: 21:31:20
+Subject: iki dosya" "184" "108" "inbox" "outbox" "inbox" "-" "notenc" "deleted"
+"oberker" "+" "admin" "2010-05-01" "00:26:23" "2010-05-01" "00:26:23" "ba≈üka deneme" "≈üirket ile ilgili dosyalarƒ± yollayabilirmisin
+" "166" "109" "inbox" "inbox" "deleted" "+" "notenc" "deleted"
+"oberker" "+" "aguder" "2010-04-29" "11:49:31" "2010-04-29" "11:49:31" "3434  fgfg" "gÜG‹<±Ï*pı:æå_0Ê3Å[u®Ù'" "151" "110" "inbox" "deleted" "deleted" "+" "182932218998418" "deleted"
+"aguder" "+" "oberker" "2010-05-02" "22:00:49" "2010-05-02" "22:00:49" "Bir sorun" "Ufak bir probmlem var sanki. Bakabilirmisin. " "185" "111" "outbox" "deleted" "inbox" "-" "notenc" "deleted"
+"aguder" "+" "aguder" "2010-05-01" "18:10:22" "2010-05-01" "18:10:22" "deneme" "deneme mesajƒ±" "177" "112" "outbox" "inbox" "deletedcomplete" "-" "notenc" "deleted"
+"admin" "+" "EGHPP System" "2010-05-03" "01:49:00" "2010-05-03" "01:49:00" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-03
+Receive Time: 01:49:00
+Subject: ba≈üka i≈ü" "198" "115" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"admin" "+" "EGHPP System" "2010-05-03" "13:19:44" "2010-05-03" "13:19:44" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-03
+Receive Time: 13:19:44
+Subject: deee" "211" "117" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"aguder" "-" "EGHPP System" "2010-05-03" "15:48:30" "2010-05-03" "15:48:30" "report:read" "Message is read from :oberker
+Subject: fdgdfg" "228" "119" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"aguder" "+" "EGHPP System" "2010-05-03" "15:47:38" "2010-05-03" "15:47:38" "report:sent" "Message is sent successfully to :oberker
+Receive Date: 2010-05-03
+Receive Time: 15:47:38
+Subject: fdgdfg" "227" "120" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"oberker" "-" "EGHPP System" "2010-05-06" "14:10:18" "2010-05-06" "14:10:18" "report:sent" "Message is sent successfully to :o_tugrul
+Receive Date: 2010-05-06
+Receive Time: 14:10:18
+Subject: No Subject" "236" "122" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"oberker" "-" "EGHPP System" "2010-05-06" "14:10:18" "2010-05-06" "14:10:18" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-06
+Receive Time: 14:10:18
+Subject: No Subject" "235" "123" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"oberker" "+" "EGHPP System" "2010-05-03" "14:50:50" "2010-05-03" "14:50:50" "report:notsent" "Message is not delivered to :'erret' Beceause 'erret' is not registered in the system" "225" "124" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"oberker" "-" "EGHPP System" "2010-05-03" "14:32:51" "2010-05-03" "14:32:51" "report:sent" "Message is sent successfully to :o_tugrul
+Receive Date: 2010-05-03
+Receive Time: 14:32:51
+Subject: ghghgh" "221" "125" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"oberker" "+" "aguder" "2010-05-06" "14:50:59" "2010-05-06" "14:50:59" "fgkl" "hj
+bn" "241" "126" "inbox" "outbox" "deleted" "+" "notenc" "deleted"
+"oberker" "+" "EGHPP System" "2010-05-06" "14:10:38" "2010-05-06" "14:10:38" "report:read" "Message is read from :aguder
+Subject: No Subject" "237" "127" "inbox" "outbox" "deleted" "-" "notenc" "deleted"
+"" "+" "admin" "2010-05-07" "03:04:18" "2010-05-07" "03:04:18" "sonra gelicek" "taslak sonra g√∂ndericem
+Bilginize" "5830" "128" "outbox" "deleted" "draft" "+" "notenc" "deleted"
+"admin" "-" "EGHPP System" "2010-05-03" "00:41:38" "2010-05-03" "00:41:38" "report:sent" "Message is sent successfully to :aguder
+Receive Date: 2010-05-03
+Receive Time: 00:41:38
+Subject: No subject" "189" "4" "inbox" "outbox" "deletedcomplete" "-" "notenc" "deletedcompletely"
+"aguder" "+" "admin" "2010-05-02" "14:05:04" "2010-05-02" "14:05:04" "No subject" "bu ≈üekilde daha iyi oturur" "179" "5" "inbox" "draft" "deletedcomplete" "+" "notenc" "deletedcompletely"
+"aguder" "-" "aguder" "2010-05-01" "18:10:22" "2010-05-01" "18:10:22" "deneme" "deneme mesajƒ±" "177" "6" "inbox" "inbox" "deletedcomplete" "-" "notenc" "deletedcompletely"
+"oberker" "-" "aguder" "2010-05-03" "15:47:38" "2010-05-03" "15:47:38" "fdgdfg" "$!Ïs	é◊çY" "226" "7" "inbox" "outbox" "deletedcomplete" "+" "265675381794078" "deletedcompletely"
+"" "+" "o_tugrul" "2010-04-28" "23:02:17" "2010-04-28" "23:02:17" "No subject" "jkl" "149" "30" "draft" "draft" "draft" "+" "notenc" "drafttoreceiver"
+"" "+" "aguder" "2010-05-01" "18:01:58" "2010-05-01" "18:01:58" "sadece taslak" "hatalarƒ± g√∂rebildim." "176" "31" "draft" "deleted" "draft" "+" "notenc" "drafttoreceiver"
+"oberker" "+" "admin" "2010-05-02" "14:05:04" "2010-05-02" "14:05:04" "No subject" "bu ≈üekilde daha iyi oturur" "179" "32" "draft" "draft" "draft" "+" "notenc" "drafttoreceiver"
+"aguder" "+" "admin" "2010-05-02" "14:05:04" "2010-05-02" "14:05:04" "No subject" "bu ≈üekilde daha iyi oturur" "179" "33" "draft" "draft" "deletedcomplete" "+" "notenc" "drafttoreceiver"
+"fgfg" "+" "admin" "2010-05-03" "02:20:14" "2010-05-03" "02:20:14" "'olacak'" "Bu da 'olacak" "199" "34" "draft" "outbox" "draft" "+" "notenc" "drafttoreceiver"
+"" "+" "aguder" "2010-05-03" "14:06:08" "2010-05-03" "14:06:08" "No subject" "dfsdfd" "216" "35" "draft" "outbox" "draft" "+" "notenc" "drafttoreceiver"
+"" "+" "admin" "2010-05-07" "03:04:18" "2010-05-07" "03:04:18" "sonra gelicek" "taslak sonra g√∂ndericem
+Bilginize" "5830" "36" "draft" "deleted" "draft" "+" "notenc" "drafttoreceiver"
