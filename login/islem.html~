@@ -1,0 +1,16 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.0 Transitional//EN">
+<HTML>
+<HEAD>
+	<META HTTP-EQUIV="CONTENT-TYPE" CONTENT="text/html; charset=utf-8">
+	<TITLE>Untitled Document</TITLE>
+	<META NAME="GENERATOR" CONTENT="OpenOffice.org 3.1  (Linux)">
+	<META NAME="CREATED" CONTENT="0;0">
+	<META NAME="CHANGEDBY" CONTENT="ali ">
+	<META NAME="CHANGED" CONTENT="20100208;20380200">
+</HEAD>
+<BODY LANG="tr-TR" DIR="LTR">
+<FORM ACTION="polls/" METHOD="POST">
+	<P><A NAME="id_word"></A>Num2: <INPUT TYPE=TEXT NAME="word" SIZE=20 STYLE="width: 4.34cm; height: 0.61cm"><BR><INPUT TYPE=SUBMIT VALUE="Bas" STYLE="width: 1.38cm; height: 0.93cm"></P>
+</FORM>
+</BODY>
+</HTML>
