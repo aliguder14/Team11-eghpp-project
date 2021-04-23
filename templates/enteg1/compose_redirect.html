@@ -1,0 +1,125 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Compose Redirect</title>
+<style type="text/css">
+.style1 {color: #F0F0F0}
+.style2 {
+	font-family: "Times New Roman", Times, serif;
+	font-weight: bold;
+}
+<!-- After message is sent, system shows to this template -->
+</style>
+</head>
+<SCRIPT language="javaScript" type="text/javascript">
+function fill()
+{
+    {% ifequal act "resumedraft" %} // if resumedraft link has been clicked in mailboxitem page
+      document.getElementById("sub").value = "{{rows.0.3}}";
+      document.getElementById("cont").value = "{{rows.0.4}}";
+      document.getElementById("to").value = "{{to}}";
+    {% endifequal %}
+    {% ifequal act "reply" %} // if reply link has been clicked in mailboxitem page
+      document.getElementById("sub").value = "Re: {{rows.0.3}}";
+      document.getElementById("cont").value = "{{rows.0.4}}";
+      document.getElementById("to").value = "{{rows.0.0}}";
+    {% endifequal %}
+    {% ifequal act "forward" %} // if forward link has been clicked in mailboxitem page
+      document.getElementById("sub").value = "Fwd: {{rows.0.3}}";
+      document.getElementById("cont").value = "{{rows.0.4}}";
+    {% endifequal %}
+    {% ifequal act "post" %} // if a button has been clicked in compose page
+      document.getElementById("sub").value = "{{subject}}";
+      document.getElementById("cont").value = "{{message}}";
+      document.getElementById("to").value = "{{to}}";
+    {% endifequal %}
+    
+}
+
+   function clearFields()
+     {
+        document.getElementById("sub").value = "";
+        document.getElementById("cont").value = "";
+        document.getElementById("to").value = "";
+        document.getElementById("cc").value = "";
+        document.getElementById("filead").value = "";
+
+     }
+
+</SCRIPT>
+<body background="/resimler/arkaplan_compose.jpg" onload="fill()">
+
+<span class="style1"></span>
+
+<table width="500" height="521" style=" left: 5px; top: 7px; height: 483px; width: 1085px; border-bottom:thin; border-left:thin; border-right:thin; border-top:thin">
+  
+  		  <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+		
+		  
+		  <tr>   
+			 <td width="133" align="right" valign="top">
+				<table  bgcolor="#CCCCCC" width="300" border="5"style ="left: 148px; width: 866px; position:absolute; top: 15px;">
+					 <td width="162" align="center" valign="top">{{use}}</td>
+							
+							<td width="154" valign="top" align="center"><a href="/compose/">New Message</a></td>
+							
+
+							<td width="165" align="center"> <a href="/logout/" style="left: 975px; top: -2px; width: 103px;"> Sign Out </a></td>
+			   </table>
+			</td>
+		  </tr>
+		  
+  
+  		  <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+		
+	      	  <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+  
+		  <tr>
+		  
+				<td height="390" valign="top">
+						<table width="129" height="146" border="5"  bgcolor="#CCCCCC">
+							  <tr>
+								<td height="26" ><a href="/inbox/?page=1">Inbox</a></td>
+							  </tr>
+							  
+							  <tr>
+								<td height="21"><a href="/draft/?page=1">Drafts</a></td>
+							  </tr>
+							  
+							  <tr>
+								<td height="34"><a href="/outbox/?page=1">Sent</a></td>
+							  </tr>
+							  
+							  
+							  <tr>
+								<td height="25"><a href="/deleted/?page=1">Trash</a></td>
+							  </tr>
+					  </table>
+						<p>&nbsp;</p>
+				</td>
+			
+			
+			
+				<td width="938" valign="top">
+					<table width="250" align="center">
+					  <tr>
+						<td><div align="center">Message has been sent successfully</div></td>
+					  </tr>
+					  <tr>
+						<td>&nbsp;</td>
+					  </tr>
+					</table>
+
+				</td>
+			
+		</tr>
+</body>
+</html>

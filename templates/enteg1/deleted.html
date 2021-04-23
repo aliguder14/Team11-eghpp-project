@@ -1,0 +1,230 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Deleted</title>
+<style type="text/css">
+.style1 {color: #F0F0F0}
+</style>
+</head>
+<SCRIPT language="javaScript" type="text/javascript">
+function sece() // select or drop all messages with checkboxes
+{
+    var count = 0,i=0,x;
+    var a = new Array();
+   {%for ro in rowspage%}
+     a[i] = document.getElementById("{{ro.6}}");
+     if(a[i].checked == true)
+        count++;
+     i++;
+   {%endfor%}
+   var j;
+  if(count < a.length)
+   { 
+     for(j=0; j < a.length; j++)
+         a[j].checked = true;
+   }
+  else if(count == a.length)
+     { 
+       for(j=0; j < a.length; j++)
+         a[j].checked = false;
+     }
+
+}
+</SCRIPT>
+<body background="/resimler/arkaplan_user.jpg">
+
+<span class="style1"></span>
+
+<table width="500" height="521" style=" left: 5px; top: 7px; height: 483px; width: 1085px; border-bottom:thin; border-left:thin; border-right:thin; border-top:thin">
+  
+  		  <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+		
+		  
+		  <tr>   
+			 <td width="133" align="right" valign="top">
+                         <form action="/deleted/?page={{page}}" method="post">
+				<table  bgcolor="#CCCCCC" width="300" border="5"style ="left: 148px; width: 866px; position:absolute; top: 15px;">
+					  <tr>
+						    <td width="162" align="center" valign="top">{{use}}</td>
+							
+							<td width="154" valign="top" align="center"><a href="/compose/">New Message</a></td>
+                                                        <td width="197" align="center" valign="top"><a href="/deleted?page=0">Show All Message</a></td>
+							
+							<td width="197" align="center" valign="top"><a href="/changepass/">Change Password</a></td>
+							
+							
+							<td width="165" align="center"> <a href="/logout/" style="left: 975px; top: -2px; width: 103px;"> Sign Out </a></td>
+					  </tr>
+			   </table>
+			</td>
+		  </tr>
+		  
+  
+  		  <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+		
+	      <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+  
+  
+  
+		  <tr>
+			<td height="390" valign="top">
+					<table width="129" height="146" border="5" bgcolor="#CCCCCC">
+						  <tr>
+							<td height="26" ><a href="/inbox/?page=1">Inbox</a></td>
+						  </tr>
+						  
+						  <tr>
+							<td height="21"><a href="/draft/?page=1">Drafts</a></td>
+						  </tr>
+						  
+						  <tr>
+							<td height="34"><a href="/outbox/?page=1">Sents</a></td>
+						  </tr>
+						  
+						  <tr>
+							<td height="25"><a href="/deleted/?page=1">Trash</a></td>
+						  </tr>
+	 		  </table>
+		            <p>&nbsp;</p>
+			</td>
+			
+			<td width="938" valign="top">
+		
+			   <table  bgcolor="white" width="589" height="389"style="left: 190px; top: 53px; width: 694px; height: 308px; border:groove">
+		
+				  <tr>
+				   <td width="589" height="342" valign="top">
+				   
+				  <table width="666"  border="1"  bgcolor="#E9E9E9">
+					  <tr>
+						<td width="137"><a href="javascript:sece()">Select All / Drop</a></td>
+					  </tr>
+				  </table>
+				  
+				  
+				  <table width="666" border="1" bgcolor="#D4D4D4">
+				  
+						  <tr>
+							<td> Move Selected To:&nbsp; </td>
+							<td align="right"> Transform Selected Messages:&nbsp; </td>
+						  </tr>
+						  
+						  <tr>
+						  
+							<td>
+										<table width="153" border="1">
+										  <tr>
+											<td width="68">
+												<select name="mailboxes">
+												  <option value="inbox">Inbox</option>
+												  <option value="outbox">Sents</option>
+												  <option value="drafts">Drafts</option>
+												  <option value="deleted">Trash</option>
+												</select>
+											</td>
+											<td width="116" align="center"><input type="submit" value="Move" name="action"/></td>
+											
+										  </tr>
+							  </table>
+							</td>
+							
+							<td>
+										<table width="200" border="1" align="right">
+										  <tr>
+											<td><input type="submit" value="Read" name="action"></td>
+											<td><input type="submit" value="Unread" name="action"></td>
+											<td><input type="submit" value="Delete" name="action"></td>
+										  </tr>
+										</table>
+							</td>
+							
+						  </tr>
+				 </table>
+
+				  
+				  
+				  
+				  
+				  
+
+							<table width="666" style="border:solid">
+								  <tr>
+									<td width="652">
+										
+										 <table>
+										     <tr bgcolor="#D4D4D4">
+												<td width="28"style="border: solid">&nbsp;</td>
+												<td width="118"style="border: solid"><strong>From</strong></td>
+												<td width="110"style="border: solid"><strong>Read</strong></td>
+												<td width="216"style="border: solid"><strong>Date</strong></td>
+												<td width="74"style="border: solid"><strong>Subject</strong></td>
+										   </tr> <!-- show data that are related to message,receiveMessage and deleteMessage table -->
+											   {% for row in rowspage %}
+											      {% ifequal row.1 "-" %}
+                                                                                                <tr bgcolor="#FFFFFF">
+												<td style="border: solid"><input name="select" type="checkbox" value="{{row.6}}" id="{{row.6}}"/></td>
+												<td style="border: solid"><strong>{{row.0}}</strong></td>
+												<td style="border: solid"><strong>{{row.1}}</strong></td>
+												<td style="border: solid"><strong>{{row.2}}&nbsp;&nbsp;{{row.5}}</strong></td>
+												<td style="border: solid"><strong><a href="/mailboxitem/?id={{row.6}}&&page=deleted">{{row.3}}</a><strong></td></tr>
+                                                                                              
+                                                                                              {% else %}
+                                                                                                <tr bgcolor="#FFFFFF">
+												<td style="border: solid"><input name="select" type="checkbox" value="{{row.6}}" id="{{row.6}}"/></td>
+												<td style="border: solid">{{row.0}}</td>
+												<td style="border: solid">{{row.1}}</td>
+												<td style="border: solid">{{row.2}}&nbsp;&nbsp;{{row.5}}</td>
+												<td style="border: solid"><a href="/mailboxitem/?id={{row.6}}&&page=deleted">{{row.3}}</a></td></tr>
+                                                                                              {% endifequal %}
+											  {% endfor %}
+										</table>
+									</td>
+								</tr>
+					 </table>
+							
+				  <table width="666"  border="1"  bgcolor="#E9E9E9">
+					  <tr>
+						<td width="137"><a href="javascript:sece()">Select All / Drop</a></td>
+					  </tr>
+				  </table>
+				 </form>			
+							
+							
+							
+							
+					</td>
+				  </tr>
+
+				  <tr>
+					<td height="33">
+                                        <!-- show page numbers -->
+                                        {%ifnotequal num_page 0 %}
+                                         {% ifnotequal num_page 1%}
+                                          {% ifnotequal page 0 %}page 
+                                           {% for pagenum in page_array %} 
+                                            {% ifequal pagenum page %}
+                                               <label>{{pagenum}}</label>
+                                            {% else %}
+                                                <a href="/deleted?page={{pagenum}}">{{pagenum}}</a> 
+                                            {% endifequal %}
+                                           {% endfor %}
+                                          {%endifnotequal%}
+                                         {%endifnotequal%}
+                                        {%endifnotequal%}
+                                          </td>
+				  </tr>
+				  
+			  </table>
+				
+</table>
+
+</body>
+</html>

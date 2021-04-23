@@ -1,0 +1,33 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>untit</title>
+<style type="text/css">
+.style1 {color: #F0F0F0}
+</style>
+</head>
+<SCRIPT language="javaScript" type="text/javascript">
+function ac()
+{
+    ab = document.getElementById('2').value;
+    if (ab.search("\n") > -1)
+      ab = ab.replace(/\n/gi,"<br>");
+    if (ab.search("a") > -1)
+      ab = ab.replace(/a/gi,'"');
+    
+    document.writeln(ab);
+   
+}
+
+</SCRIPT>
+
+<body>
+<form name="fg">
+<textarea name="gfg" id="2" ></textarea><br />
+<input name="bn" type="button" onclick="ac()" />
+</form>
+
+</body>
+</html>

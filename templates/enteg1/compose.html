@@ -1,0 +1,183 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+
+<title>Compose</title>
+<style type="text/css">
+.style1 {color: #F0F0F0}
+</style>
+</head>
+<SCRIPT language="javaScript" type="text/javascript">
+function fill()
+{
+    var content = "{{content}}";
+    if (content.search("&#39;") > -1)
+      content = content.replace(/&#39;/gi,"'"); // display ' in message content
+    if (content.search("\n") > -1)
+       content = content.replace(/\n/gi,"\n"); // replace <br> with \n
+    if (content.search("&quot;") > -1)
+      content = content.replace(/&quot;/gi,'"'); //display " in message content
+    var subject = "{{subject}}";
+    if (subject.search("&#39;") > -1)
+      subject = subject.replace(/&#39;/gi,"'");  // display ' in message content
+    if (subject.search("&quot;") > -1)
+      subject = subject.replace(/&quot;/gi,'"');  // display " in message content
+    
+       
+    
+    {% ifequal act "resumedraft" %} // if resumedraft link has been clicked in mailboxitem page
+      document.getElementById("sub").value = subject; // set the value subject field 
+      document.getElementById("cont").value = content; // set the value content field
+      document.getElementById("to").value = "{{to}}"; // set the value receiver field
+    {% endifequal %}
+    {% ifequal act "reply" %} // if reply link has been clicked in mailboxitem page
+      document.getElementById("sub").value = "Re: "+subject; // set the value subject field
+      document.getElementById("cont").value = content; // set the value content field
+      document.getElementById("to").value = "{{sender}}"; // set the value receiver field
+    {% endifequal %}
+    {% ifequal act "forward" %} // if forward link has been clicked in mailboxitem page
+      document.getElementById("sub").value = "Fwd: "+subject; // set the value subject field
+      document.getElementById("cont").value = content; // set the value content field
+    {% endifequal %}
+    {% ifequal act "post" %} // if a button has been clicked in compose page
+      document.getElementById("sub").value = subject; // set the value subject field
+      document.getElementById("cont").value = "{{message}}"; // set the value content field
+      document.getElementById("to").value = "{{to}}"; // set the value receiver field
+    {% endifequal %}
+    
+}
+
+   function clearFields() // clear all entered fields
+     {
+        document.getElementById("sub").value = ""; 
+        document.getElementById("cont").value = "";
+        document.getElementById("to").value = "";
+        document.getElementById("cc").value = "";
+        document.getElementById("filead").value = "";
+
+     }
+
+</SCRIPT>
+<body background="/resimler/arkaplan_compose.jpg" onload="fill()">
+
+<span class="style1"></span>
+
+<table width="500" height="521" style=" left: 5px; top: 7px; height: 483px; width: 1085px; border-bottom:thin; border-left:thin; border-right:thin; border-top:thin">
+  
+  		  <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+		
+		  
+		  <tr>   
+			 <td width="133" align="right" valign="top">
+				<table  bgcolor="#CCCCCC" width="300" border="5"style ="left: 148px; width: 866px; position:absolute; top: 15px;">
+						        <td width="162" align="center" valign="top">{{use}}</td>
+							
+							<td width="154" valign="top" align="center"><a href="/compose/">New Message</a></td>
+							
+							<td width="154" valign="top" align="center"><a href="javascript:clearFields()">Clear Fields</a></td>
+
+							<td width="165" align="center"> <a href="/logout/" style="left: 975px; top: -2px; width: 103px;"> Sign Out </a></td>
+			   </table>
+			</td>
+		  </tr>
+		  
+  
+  		  <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+		
+	      <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+  
+  
+  
+		  <tr>
+			<td height="390" valign="top">
+					<table width="129" height="146" border="5" bgcolor="#CCCCCC">
+						  <tr>
+							<td height="26" ><a href="/inbox/?page=1">Inbox</a></td>
+						  </tr>
+						  
+						  <tr>
+							<td height="21"><a href="/draft/?page=1">Drafts</a></td>
+						  </tr>
+						  
+						  <tr>
+							<td height="34"><a href="/outbox/?page=1">Sents</a></td>
+						  </tr>
+						  
+						  <tr>
+							<td height="25"><a href="/deleted/?page=1">Trash</a></td>
+						  </tr>
+	 		  </table>
+		            <p>&nbsp;</p>
+			</td>
+			
+			<td width="938" valign="top">
+		
+			<table  width="589" height="389"style="left: 190px; top: 53px; width: 694px; height: 308px; border:groove">
+		
+			<form method="POST" action="/compose/" enctype="multipart/form-data">
+		
+				  <tr bgcolor="#FFFFFF">
+				   <td width="581" height="342" valign="top">
+				   
+				   
+							 <table width="509" border="1" bgcolor="#CCCCCC">
+									  <tr>
+										<td width="56"><INPUT type="submit" value="Send" name="action"/></td>
+										<td width="112"><INPUT type="submit" value="SaveDraft" name="action"/></td>
+										<td width="200"><a href="/inbox/?page=1"><INPUT type="button" value="Cancel"/></a></td>
+										<td width="400"><input name="sifrele" type="checkbox" value="sifrele" /><strong>Encrypt My Message</strong></td> <!-- If a user wants to send encrypted message, this user can choose this checkbox -->
+									  </tr>
+							 </table>
+							
+		
+							 <table>
+							
+								<tr><td style="font-style:inherit; font-size:17px" id="To"><strong>To:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<input type="text" name="receiver" size="68" id="to"/></td></tr> <!-- receiver part -->
+								
+								<tr><td style="font-style:inherit; font-size:17px"><strong>Subject:</strong>&nbsp;&nbsp;&nbsp;<input type="text" name="subject" size="68" id ="sub" /></td></tr>
+
+								<tr>
+									<td><strong>Message:</strong>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span style="color:red">{{sentence}}</span></td>
+								</tr>
+
+								<tr><td><textarea name="content" rows="15" cols="60" id="cont"></textarea></td></tr>
+			                                        <tr><td><input type="file" name="filead" id="filead"/></td></tr>
+                                                                <tr><td><input type="submit" value="AttachFiles" name="action"/></td></tr>
+							        {% ifnotequal num_file 0 %}
+                                                                    <!-- list of attached files -->
+                                                                    {% for f in files %}
+                                                                    <TR><td><input type="checkbox" value="{{f.0}}" name="files" />  {{f.1}} {{f.2}} {{f.3}}</td></TR>
+                                                                    {% endfor %}
+                                                                   <table><tr><TD align="left"><input type="submit" name="action" value="Delete selected attachment"/></TD></tr></table></td></tr>
+                                                                {% endifnotequal %}
+							 <table width="509" border="1" bgcolor="#CCCCCC">
+									  <tr>
+										<td width="56"><INPUT type="submit" value="Send" name="action"/></td>
+										<td width="112"><INPUT type="submit" value="SaveDraft" name="action"/></td>
+										<td width="200"><a href="/inbox/?page=1"><INPUT type="button" value="Cancel"/></a></td>
+										<td width="400"><input name="sifrele" type="checkbox" value="sifrele" /><strong>Encrypt My Message</strong></td> <!-- If a user wants to send encrypted message, this user can choose this checkbox --> 
+									  </tr>
+							 </table>
+				
+						</table>
+					</td>
+				  </tr>
+		   </form>
+					
+				  <tr>
+					<td height="33">&nbsp;</td>
+				  </tr>
+				  
+	
+</table>
+
+</body>
+</html>

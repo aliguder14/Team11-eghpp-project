@@ -1,0 +1,103 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+<title>Administrate</title>
+<style type="text/css">
+.style1 {color: #F0F0F0}
+</style>
+</head>
+
+<body background="/resimler/arkaplan_admin.jpg">
+
+<span class="style1"></span>
+
+<table width="500" height="521" style=" left: 5px; top: 7px; height: 483px; width: 1085px; border-bottom:thin; border-left:thin; border-right:thin; border-top:thin">
+  
+  		  <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+		
+		  
+		  <tr>   
+			 <td width="133" align="right" valign="top">
+             
+				<table  bgcolor="#CCCCCC" width="300" border="5"style ="left: 155px; width: 866px; position:absolute; top: 15px;">
+					  <tr>
+							<td width="154" valign="center" align="center"><a href="/administrate/">Home Page</a></td> <!-- direct to home page -->
+                                                        <td width="197" valign="center" align="center"><a href="/inbox?page=1" target="_blank">Go to Mailbox</a></td>  <!-- direct to user inbox page -->
+							<td width="197" valign="center" align="center"><a href="/guestlist/">Request Accounts Lists</a></td>  <!-- direct to request account list -->
+							<td width="197" valign="center" align="center"><a href="/showlog/">Show Log File</a></td>  <!-- direct to page that shows data from log file -->
+							<td width="165" align="center"> <a href="/logout/"> Sign Out </a></td>  <!-- direct to logout page -->
+					  </tr>
+			   </table>
+			</td>
+		  </tr>
+		  
+  
+  		  <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+		
+	      <tr>
+		 	 <td>&nbsp;</td>
+		  </tr>
+  
+  
+  
+		  <tr>
+			<td height="390" valign="top">
+					<table width="135" height="146" border="0">
+					
+						 <tr>
+							<td width="129"><p align="center"><a href="/backupuserpass/">Backup</a>/<a href="/restoreuserpass/">Restore</a> User Password Information</p></td>
+						  </tr>
+						
+						  
+						  <tr>
+							<td><p align="center"><a href="/backupconfig/">Backup</a>/<a href="/restoreconfig/">Restore</a> User System Configuration</p></td>
+						  </tr>
+						 
+						  
+						 <tr>
+							<td><p align="center"><a href="/backupmailbox/">Backup</a>/<a href="/restoremailbox/">Restore</a> User Mailbox</p></td>
+						  </tr>
+						 
+
+	 				  </table>
+		            <p>&nbsp;</p>
+			</td>
+			
+			
+			
+			
+			 <!-- show list of users -->
+			<td width="938" valign="top">
+			  <table border="1" bgcolor="#FFFFFF"><tr bgcolor="#CCCCCC"><td><b>Username</b></td><td><b>First Name</b></ td><td><b>Last Name</b></td><td><b>E-mail</b></td><td><b>Is Super User</b></td><td><b>User Activation</b></td></tr>
+				{% for row in rows %}
+				  {% ifequal row.4 1 %}
+				   <tr><td>{{ row.0 }}</td><td>{{ row.1 }}</td><td>{{ row.2 }}</td><td>{{ row.3 }}</td><td>{{ row.4 }}</td><td>No deactivation</td></tr>
+				  {% else %}
+					 {% ifequal row.5 1 %}
+					  <tr><td>{{ row.0 }}</td><td>{{ row.1 }}</td><td>{{ row.2 }}</td><td>{{ row.3 }}</td><td>{{ row.4 }}</td><td><a href="/administrate/?id={{row.6}}&&staff=1">deactivate</a></td></tr> <!-- deactivate user if it is active-->
+					 {% else %}
+					   <tr><td>{{ row.0 }}</td><td>{{ row.1 }}</td><td>{{ row.2 }}</td><td>{{ row.3 }}</td><td>{{ row.4 }}</td><td><a href="/administrate/?id={{row.6}}&&staff=0">activate</a></td></tr> <!-- activate user if it is not active-->
+					{% endifequal %}
+				  {% endifequal %}
+				{% endfor %}
+			</table>
+				
+			</td>
+		   </tr>
+
+		   <tr>
+			 <td height="33">&nbsp;</td>
+		   </tr>
+				  
+	 </table>
+				
+</table>
+
+</body>
+</html>

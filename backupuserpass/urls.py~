@@ -1,0 +1,19 @@
+from django.conf.urls.defaults import *
+urlpatterns = patterns('eghpp-project.backupuserpass.views',
+    (r'^$', 'index'),
+    
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+

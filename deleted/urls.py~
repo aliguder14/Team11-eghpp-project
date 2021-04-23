@@ -1,0 +1,18 @@
+from django.conf.urls.defaults import *
+urlpatterns = patterns('eghpp-project.deleted.views',
+    (r'^$', 'index'),
+)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
